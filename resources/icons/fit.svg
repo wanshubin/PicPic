@@ -1,0 +1,14 @@
+<!--
+  「适合窗口」图标：左右两条画框边线 + 中间的横向双向箭头，
+  示意把画面缩放到正好放进窗口。
+  与全屏图标（四角向外的 L 形）区分开，四颗视图按钮里一眼能认出它。
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+  <path d="M4 5v14M20 5v14" fill="none" stroke="#d0d0d0" stroke-width="2"
+        stroke-linecap="round"/>
+  <path d="M8 12h8" fill="none" stroke="#d0d0d0" stroke-width="2"
+        stroke-linecap="round"/>
+  <path d="M10.5 9.5 8 12l2.5 2.5M13.5 9.5 16 12l-2.5 2.5" fill="none"
+        stroke="#d0d0d0" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>

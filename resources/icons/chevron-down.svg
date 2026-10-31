@@ -1,0 +1,11 @@
+<!--
+  下拉框右侧的展开箭头：浅灰描边、透明底。
+  由全局样式表 QComboBox::down-arrow 引用。
+  之所以自绘而不用 Fusion 自带箭头：只改 QComboBox 却不定义 ::drop-down /
+  ::down-arrow 时，样式表与原生绘制混用会让点击弹出列表瞬间重算文字位置，
+  看起来像“跳动”。
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+  <path d="M2 3.8 L5 6.8 L8 3.8" fill="none" stroke="#a8a8a8" stroke-width="1.4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

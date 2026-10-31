@@ -1,0 +1,13 @@
+<!--
+  「ICC 模拟器」图标：三段圆弧拼成的色轮，示意色彩模拟。
+  线条风格与 settings.svg 等一致；三段弧用低饱和 RGB 区分，
+  16px 下仍能辨认出是一枚色轮。
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+  <path d="M16 5.07 A8 8 0 0 1 16 18.93" fill="none" stroke="#d98a7c"
+        stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M16 18.93 A8 8 0 0 1 4 12" fill="none" stroke="#8fbc8f"
+        stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M4 12 A8 8 0 0 1 16 5.07" fill="none" stroke="#7fa8d8"
+        stroke-width="2.4" stroke-linecap="round"/>
+</svg>

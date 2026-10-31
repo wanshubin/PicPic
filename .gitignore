@@ -1,0 +1,42 @@
+# ---- 构建产物 ----
+build/
+build-*/
+build_verify/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+# vcpkg 清单模式只在构建目录内安装依赖；根目录的副本属于历史遗留
+vcpkg_installed/
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+*.tlog
+
+# ---- 本地验证脚本的产物 ----
+build_check/obj/
+build_check/testobj/
+build_check/uiobj/
+build_test/
+
+# ---- IDE ----
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+CMakeUserPresets.json
+
+# ---- 其它 ----
+aqtinstall.log
+*.log
+
+# ---- 文档渲染验证的临时产物 ----
+.playwright-mcp/

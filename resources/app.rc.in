@@ -1,0 +1,45 @@
+// ============================================================================
+//  app.rc.in —— Windows 资源脚本模板（由 CMake 配置为 app.rc）
+//
+//  作用：把应用图标与版本信息嵌入可执行文件，使资源管理器、任务栏与
+//        Alt+Tab 显示 ICON 里定义的多尺寸图案，文件属性显示 PicPic。
+//        运行时窗口图标另由 QApplication::setWindowIcon 加载 qrc 里的
+//        icons/app.png。
+//
+//  @APP_ICON_PATH@ 在 CMake 配置阶段替换为图标的绝对路径（正斜杠，
+//  rc.exe 可直接识别）；版本号取自 CMake 的 project(VERSION)。
+// ============================================================================
+
+#include <winver.h>
+
+#define IDI_APP_ICON 101
+
+IDI_APP_ICON ICON "@APP_ICON_PATH@"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION @PROJECT_VERSION_MAJOR@,@PROJECT_VERSION_MINOR@,@PROJECT_VERSION_PATCH@,0
+ PRODUCTVERSION @PROJECT_VERSION_MAJOR@,@PROJECT_VERSION_MINOR@,@PROJECT_VERSION_PATCH@,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "PicPic\0"
+            VALUE "FileDescription", "PicPic - RAW culling workbench\0"
+            VALUE "FileVersion", "@PROJECT_VERSION@\0"
+            VALUE "InternalName", "picpic\0"
+            VALUE "OriginalFilename", "picpic.exe\0"
+            VALUE "ProductName", "PicPic\0"
+            VALUE "ProductVersion", "@PROJECT_VERSION@\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END

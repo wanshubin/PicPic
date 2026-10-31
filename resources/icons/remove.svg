@@ -1,0 +1,8 @@
+<!--
+  目标目录行「移除」按钮的叉号图标：浅灰描边、透明底。
+  与 check.svg / edit.svg 同一套线条风格。
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+  <path d="M6 6l12 12M18 6L6 18" fill="none" stroke="#d0d0d0"
+        stroke-width="2" stroke-linecap="round"/>
+</svg>

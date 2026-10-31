@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "picpic",
+  "version": "0.1.0",
+  "description": "PicPic 快速选图工作台",
+  "homepage": "https://github.com/wanshubin/PicPic",
+  "license": "GPL-3.0-or-later",
+  "dependencies": [
+    "libraw",
+    "lcms",
+    "lensfun",
+    "exiv2"
+  ]
+}

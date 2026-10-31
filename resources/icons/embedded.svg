@@ -1,0 +1,11 @@
+<!--
+  「内嵌 JPEG 预览」图标：外层照片框 + 内部虚线小框，示意 RAW 文件里
+  嵌着相机生成的 JPEG。描边风格与 crop.svg 等一致；按钮可选中。
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+  <rect x="2.5" y="4" width="19" height="16" rx="2" fill="none"
+        stroke="#d0d0d0" stroke-width="2"/>
+  <rect x="7.5" y="9" width="9" height="6" rx="1" fill="none"
+        stroke="#d0d0d0" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <circle cx="8.5" cy="7" r="0.9" fill="#d0d0d0"/>
+</svg>

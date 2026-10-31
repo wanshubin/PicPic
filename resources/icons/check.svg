@@ -1,0 +1,9 @@
+<!--
+  勾选框的对勾图标：白色描边、透明底。
+  由全局样式表 QCheckBox::indicator:checked 通过 url(:/icons/check.svg) 引用，
+  绘制在 15×15 的指示器方框内；白色对勾配蓝色填充，在深色界面上足够醒目。
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <path d="M3 7.3 L5.8 10 L11 4.3" fill="none" stroke="#ffffff" stroke-width="1.8"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,56 @@
+PicPic 快速选图工作台
+Copyright (C) 2025-2026 PicPic contributors
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License Version 3 as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+--------------------------------------------------------------------------
+This software uses following libraries:
+--------------------------------------------------------------------------
+
+Qt6 (GPL)
+  The Qt Toolkit is Copyright (C) The Qt Company Ltd.
+  Licensed under the GNU General Public License version 3.
+  https://www.qt.io/
+
+libraw (LGPL 2.1)
+  Copyright (C) 2008-2024 LibRaw LLC
+  Licensed under the GNU Lesser General Public License version 2.1.
+  https://www.libraw.org/
+
+lensfun (LGPL 3.0)
+  Copyright (C) 2007-2024 the Lensfun project contributors
+  Licensed under the GNU Lesser General Public License version 3.0.
+  https://lensfun.github.io/
+
+lensfun camera / lens database (CC-BY-SA 3.0)
+  Copyright (C) the Lensfun project contributors
+  Licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported license.
+  https://lensfun.github.io/
+
+LittleCMS2 / lcms2 (MIT)
+  Copyright (C) 1998-2024 Marti Maria Saguer
+  Licensed under the MIT License.
+  https://www.littlecms.com/
+
+Exiv2 (GPL-2.0-or-later)
+  Copyright (C) 2004-2024 Exiv2 authors
+  Licensed under the GNU General Public License version 2 or later.
+  https://exiv2.org/
+
+--------------------------------------------------------------------------
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Camera color matrices and lens correction data are provided by the
+respective manufacturers and the lensfun database. PicPic does not modify
+original image files; ratings and color labels are stored in a sidecar JSON.

@@ -1,0 +1,52 @@
+<!DOCTYPE RCC>
+<!--
+  资源文件。
+
+  目前包含应用图标：icons/app.png（256×256），
+  以及勾选框的对勾图标：icons/check.svg，
+  目标目录行的编辑 / 移除图标：icons/edit.svg、icons/remove.svg，
+  预览视图控制图标：icons/rotate-left.svg、icons/rotate-right.svg、
+  icons/fit.svg、icons/fullscreen.svg、icons/fullscreen-exit.svg，
+  标记组件两侧的上一张 / 下一张箭头：icons/chevron-left.svg、
+  icons/chevron-right.svg，
+  预览下方标记行「构图与视图」左侧的「内嵌 JPEG 预览」按钮：icons/embedded.svg，
+  预览下方标记行最左边的「构图与视图」按钮：icons/crop.svg，
+  帮助窗口「关于」里社媒 ID 旁的圆形头像：icons/avatar.png
+  （由 resources/head.jpg 整图缩放到 256×256 后加圆形蒙版生成，不裁切），
+  左侧栏顶部栏的「设置」按钮：icons/settings.svg，
+  「设置」右侧的 ICC 模拟器按钮：icons/icc.svg，
+  ICC 模拟器右侧的「帮助」按钮：icons/help.svg，
+  下拉框的展开箭头：icons/chevron-down.svg，
+  Qt 内置控件的中文翻译：translations/qtbase_zh_CN.qm
+  （颜色选择面板、标准对话框按钮等 Qt 自带英文文案；
+   由 Qt 6.8 的 qttranslations/translations/qtbase_zh_CN.ts 经 lrelease 编译）。
+  运行时通过 QApplication::setWindowIcon 读取，用于标题栏、任务栏与对话框；
+  Windows 资源管理器里显示的 exe 文件图标由 resources/app.rc 嵌入，
+  两者使用同一张设计稿（根目录 image.png）。
+
+  添加资源时，把目标文件放到 resources/ 下并在此处登记即可；
+  注意文件路径相对于本 .qrc 所在目录。
+-->
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file>icons/app.png</file>
+        <file>icons/avatar.png</file>
+        <file>icons/check.svg</file>
+        <file>icons/chevron-down.svg</file>
+        <file>icons/chevron-left.svg</file>
+        <file>icons/chevron-right.svg</file>
+        <file>icons/crop.svg</file>
+        <file>icons/edit.svg</file>
+        <file>icons/embedded.svg</file>
+        <file>icons/fullscreen-exit.svg</file>
+        <file>icons/fullscreen.svg</file>
+        <file>icons/fit.svg</file>
+        <file>icons/help.svg</file>
+        <file>icons/icc.svg</file>
+        <file>icons/remove.svg</file>
+        <file>icons/rotate-left.svg</file>
+        <file>icons/rotate-right.svg</file>
+        <file>icons/settings.svg</file>
+        <file>translations/qtbase_zh_CN.qm</file>
+    </qresource>
+</RCC>
